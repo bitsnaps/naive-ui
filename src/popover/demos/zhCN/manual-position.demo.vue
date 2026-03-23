@@ -7,8 +7,8 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const x = ref(0)
-const y = ref(0)
+const x = ref<number>(0)
+const y = ref<number>(0)
 const showPopover = ref(false)
 
 function handleClick(e: MouseEvent) {
